@@ -1,0 +1,288 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 16px;
+  /* user-select: none; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.main {
+  background: url("../img/main.png") no-repeat center top;
+}
+.nav {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000000;
+  text-align: center;
+  align-items: center;
+}
+.logo {
+  height: 60px;
+  margin-left: 375px;
+  margin-right: 69px;
+}
+header a {
+  color: #fff;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+header a:hover {
+  color: #e71b51;
+}
+.main a {
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+.footer a:hover {
+  color: #e71b51;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.menu li {
+  margin-right: 40px;
+}
+.tel {
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: 375px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.btn {
+  /* content: LISTEN NOW; */
+  color: #000;
+  display: block;
+  font-style: 17px;
+  text-align: center;
+  line-height: 25px;
+  padding: 17px 47px;
+  border: 1px solid #e71b51;
+  width: 180px;
+  border-radius: 100px;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+.btn:hover {
+  background-color: #e71b51;
+  color: #fff
+}
+.btn a {
+  color;
+}
+.name {
+  text-align: left;
+  font-size: 100px;
+  font-weight: 400 !important;
+  letter-spacing: -0.1em;
+  height: 137px;
+  color: #e71b51;
+}
+.slogan {
+  padding-top: 250px;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+}
+.offer {
+  /* width: 1170px; */
+  width: 912px;
+  margin: 0 auto;
+  padding-bottom: 370px;
+}
+.offer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+.footnav {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  background-color: #000000;
+  text-align: left;
+  align-items: center;
+}
+.footmenu {
+  display: block;
+}
+.footmenu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  /* letter-spacing: 0.1em; */
+}
+.footmenu li {
+  margin-right: 40px;
+}
+.list {
+  display: flex;
+  align-items: top;
+  color: #fff;
+  width: 1170px;
+  margin-left: 500px;
+}
+.list a {
+  text-align: center;
+  text-decoration: none;
+}
+dl {
+}
+dt {
+  float: left;
+  width: 50%;
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+dd {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.container {
+  /* width: 1170px; */
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.description {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  }
+.about {
+  background: url("../img/others.png") no-repeat center top;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+br {
+  display: block;
+  margin: 10px 0;
+}
+.hand {
+  margin-top: 100px;
+  /* width: 700px; */
+  height: 500px;
+}
+.genre {
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  align-items: center;
+}
+.artist_logo{
+  margin: 10px 10px 0px 10px;
+  width: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 5px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.artist_logo:hover {
+  background-color: #494646;
+}
+.artist_sign {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-transform: none;
+}
+.artist {
+  box-shadow: 0 0 5px;
+  /* content: LISTEN NOW; */
+  padding-top: 10px;
+  background-color: #131313;
+  margin-right: 15px;
+  /* background-color: #000; */
+  color: #000;
+  display: block;
+  font-style: 17px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.artist:hover {
+  background-color: #282828;
+}
+.artist a {
+  color;
+}
+.btn_genre {
+  /* content: LISTEN NOW; */
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  font-style: 17px;
+  text-align: center;
+  line-height: 25px;
+  padding: 17px 47px;
+  border: 1px solid #e71b51;
+  width: 150px;
+  border-radius: 100px;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+}
+.btn_genre:hover {
+  background-color: #e71b51;
+  color: #fff
+}
+.btn_genre a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.last_btn {
+  padding-bottom: 21px;
+}
+.footerterm {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
